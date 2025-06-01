@@ -11,8 +11,22 @@ To write a Python program that merges **two dictionaries** and combines their ke
 
 ## 🧾 Program
 
-Add code here
+```python
+dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+
+def merge():
+    m_dict = {**dict1, **dict2}
+    return m_dict
+
+merged = merge()
+print(merged)
+```
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/cbf8ada7-1a2c-4b70-bc57-fe178eda0412)
+
 ## Result
+
+The program successfully merges two dictionaries using the unpacking operator.
